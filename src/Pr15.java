@@ -6,5 +6,7 @@ import java.util.Scanner;
 public class Pr15 {
     public static void main(String[] args) {
         Scanner in=new Scanner();
+        int a=5;
+        System.out.println(a);
     }
 }
