@@ -13,7 +13,7 @@ public class Pr11 {
         int min=Integer.MAX_VALUE;
         Random rnd=new Random();
         for (int i=0;i<mas.length;i++) {
-            mas[i]=rnd.nextInt(11)-10;
+            mas[i]=rnd.nextInt(21)-10;
             System.out.print(mas[i]+" ");
             if (mas[i]>max) max=mas[i];
             if (mas[i]<min) min=mas[i];
